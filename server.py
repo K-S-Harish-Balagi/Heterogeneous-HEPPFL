@@ -3,7 +3,7 @@ import pickle
 import zlib
 import numpy as np
 from phe import paillier
-import ShamirSecret
+import ShamirSecret, socket
 
 # ======= Server Parameters =======
 HOST = socket.gethostbyname(socket.gethostname()) # gets host local ip

@@ -6,8 +6,7 @@ from phe import paillier
 import ShamirSecret, socket
 
 # ======= Server Parameters =======
-HOST = socket.gethostbyname(socket.gethostname()) # gets host local ip
-#HOST = '10.0.8.36'
+HOST = '0.0.0.0'
 PORT = 65432
 THRESHOLD = 1
 BIG_P = 104729  # Large prime for modular operation

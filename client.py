@@ -9,7 +9,8 @@ import ShamirSecret
 import DLClient
 
 # ======= Client Parameters =======
-HOST = '10.0.8.36'
+#HOST = socket.gethostbyname(socket.gethostname()) # gets host local ip
+HOST = input("Enter Serverip eg 10.10.138.6")
 PORT = 65432
 client_id = int(sys.argv[1])
 

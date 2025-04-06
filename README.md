@@ -1,8 +1,3 @@
-Absolutely! Here's a **simpler version** of the `README.md` — clean, concise, and ready to copy into your repo:
-
----
-
-```markdown
 # Heterogeneous Homomorphic Encryption on Privacy-Preserving Federated Learning
 
 This project implements federated learning enhanced with heterogeneous homomorphic encryption and Shamir's Secret Sharing to ensure privacy and secure model aggregation.

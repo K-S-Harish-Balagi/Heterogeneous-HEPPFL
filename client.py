@@ -10,7 +10,8 @@ import DLClient
 
 # ======= Client Parameters =======
 #HOST = socket.gethostbyname(socket.gethostname()) # gets host local ip
-HOST = input("Enter Serverip eg 10.10.138.6")
+HOST = input("Enter Server ip eg 10.10.138.6: -   ")
+print("\n")
 PORT = 65432
 client_id = int(sys.argv[1])
 
